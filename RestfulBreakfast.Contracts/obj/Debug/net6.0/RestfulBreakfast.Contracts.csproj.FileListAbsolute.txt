@@ -1,0 +1,12 @@
+C:\Users\james.perry\source\repos\RestfulBreakfast\RestfulBreakfast.Contracts\bin\Debug\net6.0\RestfulBreakfast.Contracts.deps.json
+C:\Users\james.perry\source\repos\RestfulBreakfast\RestfulBreakfast.Contracts\bin\Debug\net6.0\RestfulBreakfast.Contracts.dll
+C:\Users\james.perry\source\repos\RestfulBreakfast\RestfulBreakfast.Contracts\bin\Debug\net6.0\RestfulBreakfast.Contracts.pdb
+C:\Users\james.perry\source\repos\RestfulBreakfast\RestfulBreakfast.Contracts\obj\Debug\net6.0\RestfulBreakfast.Contracts.csproj.AssemblyReference.cache
+C:\Users\james.perry\source\repos\RestfulBreakfast\RestfulBreakfast.Contracts\obj\Debug\net6.0\RestfulBreakfast.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\james.perry\source\repos\RestfulBreakfast\RestfulBreakfast.Contracts\obj\Debug\net6.0\RestfulBreakfast.Contracts.AssemblyInfoInputs.cache
+C:\Users\james.perry\source\repos\RestfulBreakfast\RestfulBreakfast.Contracts\obj\Debug\net6.0\RestfulBreakfast.Contracts.AssemblyInfo.cs
+C:\Users\james.perry\source\repos\RestfulBreakfast\RestfulBreakfast.Contracts\obj\Debug\net6.0\RestfulBreakfast.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\james.perry\source\repos\RestfulBreakfast\RestfulBreakfast.Contracts\obj\Debug\net6.0\RestfulBreakfast.Contracts.dll
+C:\Users\james.perry\source\repos\RestfulBreakfast\RestfulBreakfast.Contracts\obj\Debug\net6.0\refint\RestfulBreakfast.Contracts.dll
+C:\Users\james.perry\source\repos\RestfulBreakfast\RestfulBreakfast.Contracts\obj\Debug\net6.0\RestfulBreakfast.Contracts.pdb
+C:\Users\james.perry\source\repos\RestfulBreakfast\RestfulBreakfast.Contracts\obj\Debug\net6.0\ref\RestfulBreakfast.Contracts.dll
