@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+IlNQvnH0smhOdCiCDbTCVlXkaBXRXjIumroZfcij8JYns135pdMMq23N3ZdD0Z/rxR+rfcrvBf7bf53zcSJpw==",
+  "dgSpecHash": "MAr3zNtAH6nMO7bziQBGRyjkACvZU/G5XUlw7597h9upwDreKoWKOhjoNjHasuI/txhZb8A3BBFau4vBU9TSWg==",
   "success": true,
   "projectFilePath": "C:\\Users\\james.perry\\source\\repos\\RestfulBreakfast\\RestfulBreakfast\\RestfulBreakfast.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\james.perry\\.nuget\\packages\\erroror\\1.0.0\\erroror.1.0.0.nupkg.sha512",
     "C:\\Users\\james.perry\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\james.perry\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\james.perry\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",

@@ -25,3 +25,6 @@ C:\Users\james.perry\source\repos\RestfulBreakfast\RestfulBreakfast\obj\Debug\ne
 C:\Users\james.perry\source\repos\RestfulBreakfast\RestfulBreakfast\obj\Debug\net6.0\RestfulBreakfast.pdb
 C:\Users\james.perry\source\repos\RestfulBreakfast\RestfulBreakfast\obj\Debug\net6.0\RestfulBreakfast.genruntimeconfig.cache
 C:\Users\james.perry\source\repos\RestfulBreakfast\RestfulBreakfast\obj\Debug\net6.0\ref\RestfulBreakfast.dll
+C:\Users\james.perry\source\repos\RestfulBreakfast\RestfulBreakfast\bin\Debug\net6.0\RestfulBreakfast.Contracts.dll
+C:\Users\james.perry\source\repos\RestfulBreakfast\RestfulBreakfast\bin\Debug\net6.0\RestfulBreakfast.Contracts.pdb
+C:\Users\james.perry\source\repos\RestfulBreakfast\RestfulBreakfast\bin\Debug\net6.0\ErrorOr.dll
