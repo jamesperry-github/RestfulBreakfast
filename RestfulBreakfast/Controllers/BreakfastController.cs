@@ -15,26 +15,25 @@ namespace RestfulBreakfast.Controllers
             // Dependancy Injection
             _breakfastService = breakfastService;
         }
+
         [HttpPost]
         public IActionResult CreateBreakfast(CreateBreakfastRequest request)
         {
             // map to C# object
-            var breakfast = new Breakfast(
-                Guid.NewGuid(),
-                request.Name,
-                request.Description,
-                request.StartDateTime,
-                request.EndDateTime,
-                DateTime.UtcNow,
-                request.Savory,
-                request.Sweet
-                );
+            ErrorOr<Breakfast> requestToBreakfastResult = Breakfast.From(request);
+
+            if(requestToBreakfastResult.IsError)
+            {
+                return Problem(requestToBreakfastResult.Errors);
+            }
             // save to DB (in our case memory)
+            var breakfast = requestToBreakfastResult.Value;
             ErrorOr<Created> createBreakfastResult = _breakfastService.CreateBreakfast(breakfast);
             if (createBreakfastResult.IsError)
             {
                 return Problem(createBreakfastResult.Errors);
             }
+
             return createBreakfastResult.Match(
                 created => CreatedAtGetBreakfast(breakfast),
                 errors => Problem(errors));
@@ -52,16 +51,14 @@ namespace RestfulBreakfast.Controllers
         [HttpPut("{id:guid}")]
         public IActionResult UpsertBreakfast(Guid id, UpsertBreakfastRequest request)
         {
-            var breakfast = new Breakfast(
-                id,
-                request.Name,
-                request.Description,
-                request.StartDateTime,
-                request.EndDateTime,
-                DateTime.UtcNow,
-                request.Savory,
-                request.Sweet
-                );
+            ErrorOr<Breakfast> requestToBreakfastResult = Breakfast.From(id, request);
+
+            if (requestToBreakfastResult.IsError)
+            {
+                return Problem(requestToBreakfastResult.Errors);
+            }
+
+            var breakfast = requestToBreakfastResult.Value;
             ErrorOr<UpsertedBreakfast> upsertBreakfastResult = _breakfastService.UpsertBreakfast(breakfast);
             
             return upsertBreakfastResult.Match(
